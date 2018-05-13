@@ -1,0 +1,8 @@
+{
+  "name": "Tui jian page",
+  "action": "portal/Tuijian/index",
+  "description": "tui jian ping tai",
+  "order": 10.0,
+  "more": {
+    }
+}

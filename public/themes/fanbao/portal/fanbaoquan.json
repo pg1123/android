@@ -1,0 +1,8 @@
+{
+  "name": "Fan bao quan page",
+  "action": "portal/Fanbaoquan/index",
+  "description": "fan bao quan",
+  "order": 10.0,
+  "more": {
+    }
+}

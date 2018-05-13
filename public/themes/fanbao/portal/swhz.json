@@ -1,0 +1,8 @@
+{
+  "name": "Shangwu hezuo page",
+  "action": "portal/Swhz/index",
+  "description": "Shang wu he zu",
+  "order": 10.0,
+  "more": {
+    }
+}

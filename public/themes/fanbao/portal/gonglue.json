@@ -1,0 +1,8 @@
+{
+  "name": "Gong lue page",
+  "action": "portal/Index/gonglue",
+  "description": "shi wan gong lue",
+  "order": 10.0,
+  "more": {
+    }
+}

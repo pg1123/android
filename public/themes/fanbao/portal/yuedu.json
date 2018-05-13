@@ -1,0 +1,8 @@
+{
+  "name": "Yue du page",
+  "action": "portal/Yuedu/index",
+  "description": "yue du ping tai",
+  "order": 10.0,
+  "more": {
+    }
+}
