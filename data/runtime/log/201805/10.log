@@ -1,0 +1,101 @@
+---------------------------------------------------------------
+[ 2018-05-10T13:39:07+08:00 ] 127.0.0.1 GET /
+[ info ] thinkcmf.local/ [运行时间：0.038892s][吞吐率：25.71req/s] [内存消耗：3,402.94kb] [文件加载：65]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.002029s ]
+[ info ] [ LANG ] /var/www/thinkcmf/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkcmf.local',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/thinkcmf/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/thinkcmf/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /var/www/thinkcmf/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000404s ]
+[ info ] [ LANG ] /var/www/thinkcmf/public/../app/portal/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'thinkcmf5'[/var/www/thinkcmf/simplewind/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-10T13:39:07+08:00 ] 127.0.0.1 GET /favicon.ico
+[ info ] thinkcmf.local/favicon.ico [运行时间：0.017959s][吞吐率：55.68req/s] [内存消耗：2,348.13kb] [文件加载：55]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.001376s ]
+[ info ] [ LANG ] /var/www/thinkcmf/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkcmf.local',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'accept' => '*/*',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/thinkcmf/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/thinkcmf/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /var/www/thinkcmf/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000352s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-10T13:39:07+08:00 ] 127.0.0.1 GET /favicon.ico
+[ info ] thinkcmf.local/favicon.ico [运行时间：0.018571s][吞吐率：53.85req/s] [内存消耗：2,348.45kb] [文件加载：55]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.001363s ]
+[ info ] [ LANG ] /var/www/thinkcmf/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'thinkcmf.local',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/www/thinkcmf/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /var/www/thinkcmf/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /var/www/thinkcmf/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000386s ]
+[ info ] [ LOG ] INIT File
