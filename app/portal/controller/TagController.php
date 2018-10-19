@@ -17,6 +17,10 @@ class TagController extends HomeBaseController
 {
     public function index()
     {
+        if (!$this->isMobile()){
+            echo '请用手机登录: fanbazhuan.com';
+            exit;
+        }
         $id             = $this->request->param('id');
 
         $portalTagModel = new PortalTagModel();

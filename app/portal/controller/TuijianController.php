@@ -19,6 +19,10 @@ class TuijianController extends HomeBaseController
 {
     public function index()
     {
+        if (!$this->isMobile()){
+            echo '请用手机登录: fanbazhuan.com';
+            exit;
+        }
         $articlesTuijian =ApiService::articles(array(
             'category_ids' => 1,
             'recommended' => 1

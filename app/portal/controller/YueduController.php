@@ -23,7 +23,10 @@ class YueduController extends HomeBaseController
 {
     public function index()
     {
-
+        if (!$this->isMobile()){
+            echo '请用手机登录: fanbazhuan.com';
+            exit;
+        }
         $articles =ApiService::articles(['category_ids'=>'2'])['articles'];
         //print_r($articles);exit;
         //$article = Db::name('portal_post')->where('id',1)->find();

@@ -17,6 +17,10 @@ class PageController extends HomeBaseController
 {
     public function index()
     {
+        if (!$this->isMobile()){
+            echo '请用手机登录: fanbazhuan.com';
+            exit;
+        }
         $postService = new PostService();
         $pageId      = $this->request->param('id', 0, 'intval');
         $page        = $postService->publishedPage($pageId);

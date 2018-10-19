@@ -16,6 +16,10 @@ class SearchController extends HomeBaseController
 {
     public function index()
     {
+        if (!$this->isMobile()){
+            echo '请用手机登录: fanbazhuan.com';
+            exit;
+        }
         $keyword = $this->request->param('keyword');
 
         if (empty($keyword)) {

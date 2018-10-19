@@ -19,10 +19,10 @@ class IndexController extends HomeBaseController
 {
     public function index()
     {
-        /*if (!$this->isMobile()){
-            echo '请用手机登录fanbazhuan.com，公众号:fanbaozhuan';
+        if (!$this->isMobile()){
+            echo '请用手机登录: fanbazhuan.com';
             exit;
-        }*/
+        }
         $articles =ApiService::articles(['category_ids'=>'1'])['articles'];
         $banners =ApiService::articles(['category_ids'=>'3'])['articles'];
         //print_r($articles);exit;
@@ -38,6 +38,10 @@ class IndexController extends HomeBaseController
     // shi wan gong lue
     public function gonglue()
     {
+        if (!$this->isMobile()){
+            echo '请用手机登录: fanbazhuan.com';
+            exit;
+        }
         return $this->fetch(':gonglue');
     }
 }
